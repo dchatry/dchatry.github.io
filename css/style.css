@@ -1,0 +1,60 @@
+
+@media screen and (min-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    max-width: 350px;
+    width: 350px;
+  }
+  .container.is-fluid {
+    margin: 0 20px;
+    max-width: none;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1192px) {
+  .container {
+    max-width: 350px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1384px) {
+  .container {
+    max-width: 350px;
+    width: 350px;
+  }
+}
+body {
+  font-family: 'Roboto Mono', serif;
+}
+
+.links {
+  margin-bottom: 1.5rem;
+}
+.hero.is-success .links  a:not(.button) {
+  font-family: 'Rubik', serif;
+  font-weight: 500;
+  color: #ff0854; 
+  border: none;
+}
+.hero.is-success a:not(.button) {
+  border-bottom: 1px solid #ff0854;  
+}
+.hero.is-success a:not(.button):hover {
+  background-color: #ff0854;  
+  color: #ffffff; 
+}
+.hero.is-success {
+    background-color: white;
+    color: #333;
+}
+.hero.is-success .title {
+    font-family: 'Rubik', serif;
+    font-weight: bold;
+    color: #333;
+}
+.hero.is-success .subtitle {
+    font-family: 'Roboto Mono', serif;
+    color: #333;
+}
