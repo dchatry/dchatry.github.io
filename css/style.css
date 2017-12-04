@@ -25,6 +25,96 @@
     width: 350px;
   }
 }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)   {
+  body {
+    font-size: 1.3rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .hero.is-success .links {
+    font-size: 2rem;
+  }
+}
+
+
+@media only screen 
+and (min-device-width : 735px) 
+and (max-device-width : 812px) 
+and (orientation : landscape) {
+  body {
+    font-size: 1.3rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .hero.is-success .links {
+    font-size: 2rem;
+  }
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+  body {
+    font-size: 1.8rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .hero.is-success .links {
+    font-size: 3rem;
+  }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  body {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .hero.is-success .links {
+    font-size: 4rem;
+  }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+  body {
+    font-size: 1.8rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .hero.is-success .links {
+    font-size: 3rem;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  body {
+    font-size: 1.8rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .hero.is-success .links {
+    font-size: 4rem;
+  }
+}
+
 body {
   font-family: 'Roboto Mono', serif;
 }
@@ -48,6 +138,8 @@ body {
 .hero.is-success {
     background-color: white;
     color: #333;
+    align-items: center;
+    justify-content: center;
 }
 .hero.is-success .title {
     font-family: 'Rubik', serif;
