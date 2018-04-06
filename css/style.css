@@ -125,14 +125,14 @@ body {
 .hero.is-success .links  a:not(.button) {
   font-family: 'Rubik', serif;
   font-weight: 500;
-  color: #ff0854; 
+  color: #0932e7; 
   border: none;
 }
 .hero.is-success a:not(.button) {
-  border-bottom: 1px solid #ff0854;  
+  border-bottom: 1px solid #0932e7;  
 }
 .hero.is-success a:not(.button):hover {
-  background-color: #ff0854;  
+  background-color: #0932e7;  
   color: #ffffff; 
 }
 .hero.is-success {
